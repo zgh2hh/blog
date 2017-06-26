@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://zgh2hh.github.io
-root: /
+root: /public/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -69,5 +69,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/caffe-linux/inerdstack.github.io.git
+  repo: https://github.com/zgh2hh/Hexo-Blog.git
   branch: master
